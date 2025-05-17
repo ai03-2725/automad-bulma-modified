@@ -1,7 +1,7 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
 
-<div style="flex-grow: 1;">
+<div class="main-content-div">
 	
 	<@ set { ":heroTitle": true } @>
 	<@ snippets/hero.php @>

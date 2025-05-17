@@ -9,7 +9,7 @@
 			</span>
 			<br />
 			<br />
-			<div class="is-size-4"><strong>404</strong> &ndash; Page Not Found!</div>
+			<div class="is-size-4"><strong>404</strong> &ndash; Page Not Found.</div>
 			<br />
 		</div>
 	</section>

@@ -1,18 +1,18 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
 
-<div style="flex-grow: 1;">
+<div class="main-content-div">
 
 	<@ snippets/hero.php @>
 	<section class="section">
 		<div class="container">		
 			<div class="columns is-8 is-variable">
 				<div class="column is-6">
-					<@ if not @{ checkboxHideTitleAndTeaser } @>
 					<div class="content">
-						<@ snippets/teaser.php @>
-						<br />
+						<@ if not @{ checkboxHideTitleAndTeaser } @>
+							<@ snippets/teaser.php @>
 						<@ end @>
+						<br />
 						@{ text | markdown }
 					</div>	
 				</div>

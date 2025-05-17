@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2025 ai03 Design Studio
+Copyright (c) 2019 Marc Anton Dahmen, <https://marcdahmen.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

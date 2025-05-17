@@ -37,8 +37,8 @@
 		</div>
 	</footer>
 	<script src="/vendor/components/jquery/jquery.slim.min.js"></script>
-	<script src="/packages/dahmen/automad-bulma/dist/bulma-carousel.min.js"></script>
-	<script src="/packages/dahmen/automad-bulma/dist/automad-bulma.js"></script>
+	<script src="/packages/ai03/automad-bulma-modified/dist/bulma-carousel.min.js"></script>
+	<script src="/packages/ai03/automad-bulma-modified/dist/automad-bulma.js"></script>
 	@{ itemsFooter }
 </div>
 </body>

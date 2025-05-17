@@ -1,11 +1,13 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
 
+<div class="main-content-div">
+
 	<@ snippets/hero.php @>	
 	<@ newPagelist { 
 		filter: @{ ?filter },
 		search: @{ ?search },
-		template: @{ templateFilter },
+		template: @{ templateFilter | def ('post') },
 		sort: 'date desc'
 	} @>
 	<section class="section">
@@ -29,5 +31,7 @@
 			</div>
 		</div>
 	</section>
+
+</div>
 	
 <@ snippets/footer.php @>

@@ -1,7 +1,7 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
 
-<div style="flex-grow: 1;">
+<div class="main-content-div">
 	
 	<@ snippets/navbar.php @>
 	<section class="section">
@@ -10,8 +10,8 @@
 				<div class="column is-4 content">
 					<@ if not @{ checkboxHideTitleAndTeaser } @>
 						<@ snippets/teaser.php @>
-						<br />
 					<@ end @>
+					<br />
 					@{ text | markdown }	
 				</div>
 				<div class="column is-8">
@@ -58,7 +58,7 @@
 		<@ snippets/pagelist.php @>
 		<@ end @>
 	</section>
-	
-</div>
 
+</div>
+	
 <@ snippets/footer.php @>

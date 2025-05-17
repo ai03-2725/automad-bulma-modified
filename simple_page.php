@@ -1,12 +1,12 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
 
-<div style="flex-grow: 1;">
+<div class="main-content-div">
 
 	<@ snippets/hero.php @>
 	<section class="section">
 		<div class="container">			
-			<div class="columns is-variable is-8">
+			<div class="columns is-8 is-variable">
 				<div class="column <@ if @{ checkboxHideMenu } @>is-12<@ else @>is-8<@ end @> content">
 					<@ if not @{ checkboxHideTitleAndTeaser } @>
 						<@ snippets/teaser.php @>
@@ -23,5 +23,7 @@
 			</div>
 		</div>
 	</section>
+
+</div>
 	
 <@ snippets/footer.php @>

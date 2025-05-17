@@ -1,18 +1,22 @@
 {
-	"name": "ai03-2725/automad-bulma-modified",
+	"name": "ai03/automad-bulma-modified",
 	"description": "A modified version of the dahmen/automad-bulma theme.",
 	"type": "automad-package",
-	"keywords": ["theme", "multi-purpose", "blog", "portfolio", "bulma"],
+	"keywords": ["theme"],
 	"authors": [
 		{
 			"name": "ai03 Design Studio",
 			"homepage": "https://ai03.com/"
+		},
+		{
+			"name": "Marc Anton Dahmen",
+			"homepage": "https://marcdahmen.de"
 		}
 	],
 	"license": "MIT",
 	"require": {
-		"automad/package-installer": "^1.1 || dev-master",
+		"automad/package-installer": "^1.1",
 		"components/jquery": "^3.3",
-		"automad/meta-tags": "^1.1 || dev-master"
+		"automad/meta-tags": "^1.1 || dev-default"
 	}
 }
