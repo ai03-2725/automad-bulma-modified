@@ -1,5 +1,7 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
+
+<div style="flex-grow: 1;">
 	
 	<@ snippets/hero.php @>
 	<@ newPagelist {
@@ -14,7 +16,7 @@
 		<@ pagelist { type: false } @>
 	<@ end @>
 	<section class="section">
-		<@ if not @{ checkboxHideTeaser } @>
+		<@ if not @{ checkboxHideTitleAndTeaser } @>
 			<div class="container content">
 				<div class="columns">
 					<div class="column is-8">
@@ -31,5 +33,7 @@
 		</div>	
 		<@ snippets/pagelist.php @>
 	</section>
+
+</div>
 	
 <@ snippets/footer.php @>

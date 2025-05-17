@@ -1,5 +1,5 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
-<@ filelist { glob: @{ images | def ('*.jpg, *.png') }, order: asc } @>
+<@ filelist { glob: '*slide*.jpg, *slide*.jpeg, *slide*.png, *slide*.webp, *slide*.avif', order: asc } @>
 <@ if @{ checkboxNavbarOpaque } or not @{ :filelistCount } @>
 	<@ navbar.php @>
 <@ end @>
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 		<# Set :heroTitle to in a template before using the hero snippet to show the title in the footer. #>
-		<@ if @{ :heroTitle } @>
+		<@ if @{ :heroTitle } and not @{ checkboxHideTitleAndTeaser } @>
 			<@ if @{ checkboxNavbarDark } @>
 				<@ set { ":color": "has-text-white" } @>
 			<@ end @>

@@ -33,7 +33,7 @@
 	<@ end @>
 <@ end @>
 <@ if @{ checkboxNavbarDark } @>
-	<@ set { ":navbarColor": "is-black" } @>
+	<@ set { ":navbarColor": "is-dark" } @>
 <@ else @>
 	<@ set { ":navbarColor": "is-white" } @>
 <@ end @>

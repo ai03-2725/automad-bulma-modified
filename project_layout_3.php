@@ -1,18 +1,22 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 <@ snippets/header.php @>
+
+<div style="flex-grow: 1;">
 	
 	<@ snippets/navbar.php @>
 	<section class="section">
 		<div class="container">
 			<div class="columns is-8 is-variable">
 				<div class="column is-4 content">
-					<@ snippets/teaser.php @>
-					<br />
+					<@ if not @{ checkboxHideTitleAndTeaser } @>
+						<@ snippets/teaser.php @>
+						<br />
+					<@ end @>
 					@{ text | markdown }	
 				</div>
 				<div class="column is-8">
 					<div class="content">
-						<@ filelist { glob: @{ images | def('*.jpg, *.png') }, sort: 'asc' } @>
+						<@ filelist { glob: '*slide*.jpg, *slide*.jpeg, *slide*.png, *slide*.webp, *slide*.avif', order: asc } @>
 						<@ if @{ :filelistCount } > 1 @>
 							<div class="carousel carousel-animated carousel-animate-fade" data-autoplay="true" data-delay="3000">
 								<div class="carousel-container">
@@ -45,12 +49,16 @@
 			</div>
 			<br />
 		</div>
+		<@ if not @{ checkboxHideMenu } @>
 		<@ newPagelist {
 			type: 'related',
 			sort: @{ sortPages },
 			template: @{ templateFilter }
 		} @>
 		<@ snippets/pagelist.php @>
+		<@ end @>
 	</section>
 	
+</div>
+
 <@ snippets/footer.php @>

@@ -23,11 +23,6 @@
 						</p>
 					<@ end @>
 				<@ end @>
-				<@ if not @{ checkboxHideSignIn } @>
-					<p>
-						<a href="/dashboard">Sign in</a>
-					</p>
-				<@ end @>
 			</div>
 			<br />
 			<@ if @{ textFooter } @>
@@ -45,5 +40,6 @@
 	<script src="/packages/dahmen/automad-bulma/dist/bulma-carousel.min.js"></script>
 	<script src="/packages/dahmen/automad-bulma/dist/automad-bulma.js"></script>
 	@{ itemsFooter }
+</div>
 </body>
 </html>
