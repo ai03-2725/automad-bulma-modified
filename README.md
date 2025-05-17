@@ -2,9 +2,7 @@
 
 A modified version of the [dahmen/automad-bulma](https://packages.automad.org/dahmen/automad-bulma) theme.  
 
----
-
-# Changes
+## Changes
 
 - The hero/project slideshows only display images which include the term `slide` in its filename.  
 - The hero slideshow selects `webp`, `avif`, and `jpeg` extensions in addition to the stock `png` and `jpg`.
