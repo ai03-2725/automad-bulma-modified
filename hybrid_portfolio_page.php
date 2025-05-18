@@ -21,7 +21,7 @@
 	<@ if @{ checkboxShowAllPagesInPagelist } or @{ ?search } @>
 		<@ pagelist { type: false } @>
 	<@ end @>
-	<section class="section">
+	<section class="section" style="padding-top: 0;">
 		<@ if not @{ checkboxHideTitleAndTeaser } @>
 			<div class="container content">
 				<div class="columns">
