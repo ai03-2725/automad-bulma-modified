@@ -11,6 +11,8 @@
 		"checkboxFullWidth": "Makes the page contents full width (provide your own <div class=\"container\"> and <section class=\"section\">.",
 		"checkboxHideFilters": "Hide filter dropdown",
 		"checkboxHideImagesInPagelist": "Hide images in pagelist",
+		"checkboxHideTeasersInPagelist": "Hide teaser text in pagelist",
+		"checkboxHideMoreInPagelist": "Hide the 'more' button in pagelist",
 		"checkboxHideSecondLevelNavbar": "Hide the second level navbar",
 		"checkboxHideMenu": "Hide the page menu",
 		"checkboxHideHero": "Hide the hero section",
