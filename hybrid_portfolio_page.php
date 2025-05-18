@@ -5,7 +5,7 @@
 	
 	<@ snippets/hero.php @>
 
-	<section class="section">
+	<section class="section" style="padding-bottom: 0;">
 		<div class="container content">
 			@{ text | markdown }
 		</div>
