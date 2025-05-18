@@ -13,7 +13,6 @@
 					<div class="is-size-4">
 						@{ textTeaser | markdown }
 					</div>
-					<br />
 					<@ end @>
 					@{ text | markdown }
 				</div>	
