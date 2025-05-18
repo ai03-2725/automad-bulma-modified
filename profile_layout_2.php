@@ -5,7 +5,7 @@
 
 	<@ snippets/hero.php @>
 	<section class="section">
-		<div class="container content">			
+		<div class="container content is-clipped">			
 			<div class="columns is-variable is-8">	
 				<div class="column is-4">
 					<@ with @{ imageProfile } { width: 400 } @>

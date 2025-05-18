@@ -3,7 +3,7 @@
 
 	<@ snippets/navbar.php @>
 	<section class="section">
-		<div class="container content">			
+		<div class="container content is-clipped">			
 			<span class="icon is-large">
 				<span class="far fa-frown fa-3x"></span>
 			</span>

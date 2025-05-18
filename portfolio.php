@@ -17,7 +17,7 @@
 	<@ end @>
 	<section class="section">
 		<@ if not @{ checkboxHideTitleAndTeaser } @>
-			<div class="container content">
+			<div class="container content is-clipped">
 				<div class="columns">
 					<div class="column is-8">
 						<h1>@{ title }</h1>
