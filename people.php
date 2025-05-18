@@ -5,8 +5,8 @@
 
 	<@ snippets/hero.php @>
 	<section class="section">
-		<div class="container is-clipped">			
-			<div class="columns is-variable is-8 content">
+		<div class="container">			
+			<div class="columns is-8 content">
 				<@ if not @{ checkboxHideTitleAndTeaser } @>
 					<div class="column is-4">
 						<h1>@{ title }</h1>

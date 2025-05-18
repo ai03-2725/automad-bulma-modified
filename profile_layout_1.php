@@ -5,10 +5,10 @@
 
 	<@ snippets/hero.php @>
 	<section class="section">
-		<div class="container is-clipped">			
-			<div class="columns is-variable is-8">
+		<div class="container">			
+			<div class="columns is-8">
 				<div class="column is-8 content">
-					<div class="columns is-variable is-8">
+					<div class="columns is-8">
 						<div class="column is-4">
 							<@ with @{ imageProfile } { width: 240, height: 240, crop: true } @>
 								<img src="@{ :fileResized }" alt="@{ :basename }">

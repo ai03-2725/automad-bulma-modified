@@ -5,8 +5,8 @@
 
 	<@ snippets/navbar.php @>
 	<section class="section">
-		<div class="container is-clipped">
-			<div class="columns is-8 is-variable">
+		<div class="container">
+			<div class="columns is-8">
 				<div class="column is-6">
 					<div class="content">
 						<@ if not @{ checkboxHideTitleAndTeaser } @>

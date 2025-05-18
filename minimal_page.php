@@ -11,7 +11,7 @@
 
 	<@ if not @{checkboxFullWidth} @>
 	<section class="section">
-		<div class="container is-clipped">			
+		<div class="container">			
 			<@ end @>
 			@{ text | markdown }
 			<@ if not @{checkboxFullWidth} @>

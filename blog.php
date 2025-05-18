@@ -11,8 +11,8 @@
 		sort: 'date desc'
 	} @>
 	<section class="section">
-		<div class="container is-clipped">	
-			<div class="columns is-8 is-variable">
+		<div class="container">	
+			<div class="columns is-8">
 				<div class="column is-4">
 					<div class="content">
 						<h1>@{ title }</h1>
